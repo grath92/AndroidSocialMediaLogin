@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#512DA8</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="colorSnackbar">#B9B5B6</color>
+    <color name="black">#000000</color>
+
     <color name="window_background">#ffffff</color>
     <color name="color_white">#ffffff</color>
 
