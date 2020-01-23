@@ -19,4 +19,14 @@
 
     <color name="bg_btn_linked_in_normal">#4875B4</color>
     <color name="bg_btn_linked_in_pressed">#008CC9</color>
+
+    <color name="bg_btn_instagram_normal">#e4405f</color>
+    <color name="bg_btn_instagram_pressed">#F06580</color>
+
+    <color name="bg_btn_yahoo_normal">#410093</color>
+    <color name="bg_btn_yahoo_pressed">#8A51D1</color>
+
+    <color name="bg_btn_github_normal">#131418</color>
+    <color name="bg_btn_github_pressed">#777A86</color>
+
 </resources>

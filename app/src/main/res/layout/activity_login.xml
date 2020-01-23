@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="LogIn"
+        android:text="@string/title_login"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="19sp"
         android:textStyle="bold"
@@ -38,8 +38,12 @@
             android:background="@drawable/bg_btn_facebook"
             android:gravity="center"
             android:text="@string/sign_in_with_fb"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/bg_btn_facebook_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_facebook"/>
 
         <Button
             android:id="@+id/main_fb_share_button"
@@ -49,42 +53,104 @@
             android:background="@drawable/bg_btn_facebook"
             android:gravity="center"
             android:text="@string/share_fb"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/bg_btn_facebook_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_facebook"
+            android:visibility="gone"/>
 
         <Button
-            android:id="@+id/main_g_sign_in_button"
+            android:id="@+id/g_sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_google_plus"
             android:gravity="center"
             android:text="@string/sign_in_with_google"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/bg_btn_google_plus_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_google_plus" />
 
         <Button
-            android:id="@+id/main_twitter_sign_in_button"
+            android:id="@+id/twitter_sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_twitter"
             android:gravity="center"
             android:text="@string/sign_in_with_twitter"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/bg_btn_twitter_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_twitter"/>
 
 
         <Button
-            android:id="@+id/main_linked_in_sign_in_button"
+            android:id="@+id/linked_in_sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_linked_in"
             android:gravity="center"
             android:text="@string/sign_in_with_linked_in"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/bg_btn_linked_in_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_linkedin"/>
+
+        <Button
+            android:id="@+id/instagram_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_btn_instagram"
+            android:gravity="center"
+            android:text="@string/sign_in_with_instagram"
+            android:textColor="@color/bg_btn_instagram_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_instagram" />
+
+        <Button
+            android:id="@+id/yahoo_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_btn_yahoo"
+            android:gravity="center"
+            android:text="@string/sign_in_with_yahoo"
+            android:textColor="@color/bg_btn_yahoo_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_yahoo"/>
+
+        <Button
+            android:id="@+id/github_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_btn_github"
+            android:gravity="center"
+            android:text="@string/sign_in_with_gihub"
+            android:textColor="@color/bg_btn_github_normal"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:drawableStart="@drawable/ic_github"/>
 
         <TextView
             android:id="@+id/main_name_txt"
