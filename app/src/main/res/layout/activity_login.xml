@@ -151,22 +151,6 @@
             android:paddingStart="20dp"
             android:paddingEnd="5dp"
             android:drawableStart="@drawable/ic_github"/>
-
-        <TextView
-            android:id="@+id/main_name_txt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/main_email_txt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
     </LinearLayout>
     <ProgressBar
         android:id="@+id/progress_bar"
